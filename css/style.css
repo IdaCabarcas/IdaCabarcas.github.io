@@ -13,8 +13,6 @@ body {
 	flex-wrap: wrap;
 }
 
-
-
 html,
 body {
 	height: 100%;
@@ -805,7 +803,7 @@ footer a {
 
 /**Respondive Design- adaptable***/
 @media screen and (max-width:1220px){
-	.container_24,
+	.pad-left,
 	.container_24-footer,
 	.slider-container{
 		max-width: 1000px;
@@ -815,10 +813,17 @@ footer a {
 
 }
 @media screen and (max-width:1020px){
-	.container_24{
+	.pad-left{
+		width: 100%;
+		flex-direction: column;
+	}
+	article{
 		width: 100%;
 		flex-direction: column;
 	}
 }
+
+
+
 
 
